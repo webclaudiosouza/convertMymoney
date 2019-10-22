@@ -12,7 +12,7 @@ app.get('/', async(req, res) => {
     const cotacao = await apiBCB.getCotacao()
     console.log(new Date())
     res.render('home', {
-        cotacao
+        cotacao 
     })
 })
 
