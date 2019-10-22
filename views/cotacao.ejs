@@ -1,0 +1,10 @@
+<%- include('header.ejs') %>
+<br>
+<div class="result">
+    <% if(error){ %>
+        <%= error %>
+    <% }else{ %>
+             <%=quantidade %> dolares na cotacão : <%=cotacao%> é igual a <%=conversao%> reais
+    <% } %>
+</div>
+<%- include('footer.ejs') %>
